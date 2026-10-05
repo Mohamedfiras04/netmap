@@ -8,7 +8,7 @@ def is_active(ip):
         encoding="utf-8", errors="ignore")       # ← Encoding + Fehler ignorieren!
     if test.stdout is None:                        # ← falls leer
         return False
-    print ("TTL" in test.stdout)
+    print 
     return "TTL" in test.stdout              # "TTL" nur bei echter Antwort!
 # Teste eine IP, bei der SICHER KEIN Gerät ist:
 is_active("192.168.0.99")

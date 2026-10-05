@@ -4,7 +4,7 @@ from concurrent.futures import ThreadPoolExecutor
 
 def check_port(ip, port):
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    sock.settimeout(0.3)
+    sock.settimeout(0.2)
     if sock.connect_ex((ip, port)) == 0:
         try:
             name = socket.getservbyport(port)
