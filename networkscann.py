@@ -16,6 +16,8 @@ def is_active(ip):
         except:
             name="Unknown"
         print(f"{ip} is active ----> {name}")
+        return True
+    return False
 
 
 def network_scan(NetworkIp):
