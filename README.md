@@ -1,8 +1,4 @@
-gib mir dierct was soo ich geben ich mache copie past
 
-Hier, direkt zum Kopieren:
-
-markdown
 # netmap
 
 A simple network and port scanning tool written in Python.  
