@@ -22,7 +22,7 @@ parser = argparse.ArgumentParser(description="Netmap: A simple network mapping t
 parser.add_argument("-p", "--port", help="port scanning, first 1400 ports", required=False)
 parser.add_argument("-n", "--network", help="network scanning", required=False)
 parser.add_argument("-np", "--networkport", help="network and port scanning", required=False)
-# Hinweis: -h / --help wird von argparse automatisch erstellt
+
 
 arg = parser.parse_args()
 
